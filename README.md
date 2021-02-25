@@ -57,3 +57,5 @@ cargo install tauri-bundler --force
 | `yarn start`       | Run your app in production (uses the build from `yarn build`) |
 | `yarn tauri dev`   | Run your app in development mode on your machine (native app) |
 | `yarn tauri build` | Build your app in production mode (native app)                |
+
+***After `yarn tauri build`, generated executables can be found in `src-tauri/target/release/bundle`.***
